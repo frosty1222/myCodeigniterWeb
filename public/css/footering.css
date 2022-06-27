@@ -1,0 +1,207 @@
+.footer {
+    position:relative;
+    width: 100%;
+    display:block;
+    margin: 0;
+    padding: 0;
+    height:auto;
+}
+.container-footer {
+    position: relative;
+    padding: 0;
+    margin: auto;
+    width: 100%;
+    height: 350px;
+    display: block;
+}
+.container-footer .address{
+    width:1200px;
+    margin:auto;
+    padding:auto;
+}
+.container-footer .float-left{
+    width:1200px;
+    margin: auto;
+}
+.float-left h3 {
+    color: orange;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-right: 10px;
+}
+.float-left h4,span{
+    color:whitesmoke;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+}
+.float-left ul {
+    width: 1200px;
+    background-color: inherit;
+    height: auto;
+    display: flex;
+    position: relative;
+    margin: auto;
+}
+.float-left ul,li{
+    list-style:none;
+}
+.float-left ul .float1{
+    width:100%;
+    list-style: none;
+    background-color:inherit;
+    margin-top:30px;
+    margin-right:10px;
+}
+.float-left ul .float{
+    width:200px;
+    position: relative;
+    margin-top:30px;
+    margin-right:10px;
+}
+.float-left ul .float-text {
+    width:65%;
+    height:auto;
+    display:flex;
+}
+.float-left ul .float2{
+    width:100%;
+    list-style: none;
+    background-color:inherit;
+    margin-top:30px;
+    margin-right:10px;
+}
+.float-left ul li img{
+    margin-top:30px;
+    margin-right:10px;
+}
+.float-left li img {
+    width: auto;
+    color: black;
+    position: relative;
+    margin-left:0px;
+}
+.list_pro {
+    border-top: solid #eee 1px;
+    border-bottom: solid #eee 1px;
+    padding: 30px 0;
+    background: #393;
+    width:100%;
+    height:auto;
+}
+.pro-list {
+    display: flex;
+    height:auto;
+    bottom: 10px;
+    padding-top: 50px;
+    width: 1200px;
+    margin: auto;
+}
+.pro-list ul {
+    width: 90%;
+    margin: 0px;
+    height: fit-content;
+}
+.pro-list ul li .small-line {
+    background-color: orange;
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    display: block;
+    top:39px;
+    left: -3px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.list_pro ul li{
+    padding:5px;
+    list-style:none;
+    text-decoration-color: white;
+    border-bottom: 1px solid #fff;
+    text-align: left;
+    display: block;
+    outline: none;
+    width: 270px;
+}
+.list_pro ul li h1 {
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #fff;
+	margin-left: -8px;
+	font-style: normal;
+	font-weight: 400;
+}
+.list_pro ul li h3 a{
+    text-transform: capitalize;
+    font-size: 15px;
+    color: #fff;
+    margin-left:-8px;
+    text-decoration: none;
+}
+.list_pro ul li h3 a:hover{
+    color: yellow;
+}
+.bottom {
+    width: 100%;
+    height: auto;
+    background: green;
+    margin-top:-20px; border-top:1px solid #eee;
+}
+.bottom .sub-bottom {
+    display:flex;
+    width:1200px;
+    margin:auto;
+    padding-bottom: 20px;
+}
+.bottom .sub-bottom .bottom-left{
+    margin-top:20px;
+    width:400px;
+}
+.bottom .sub-bottom .bottom-left ul li h2,h3,h4,h5{
+    margin-top:20px;
+    color:#fff;
+    font-weight:normal;
+}
+.bottom .sub-bottom .bottom-left ul li{
+    margin-top:20px;
+    list-style:none;
+}
+.bottom .sub-bottom .bottom-midd{
+    margin-top:20px;
+    width:400px;
+}
+.bottom .sub-bottom .bottom-midd .middle-inside{
+    width:100%;
+    display: inline;
+}
+.bottom-midd .middle-inside input{
+    padding: 10px 50px;
+}
+.bottom-midd .middle-inside a {
+    padding: 5px 10px;
+    color: #fff;
+    background-color: orange;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    position: absolute;
+    margin-left: -10px;
+}
+.bottom .sub-bottom .bottom-right{
+    margin-top:20px;
+    width:400px;
+}
+.bottom .sub-bottom .bottom-right img {
+    width: 60%;
+    margin-left: 150px;
+}
+.bottom .sub-bottom .bottom-right .title{
+    margin-left:100px;
+}
+.bottom .sub-bottom .bottom-right .title img {
+    width: 5%;
+    margin-left: 0px;
+    margin-top: -10px;
+    position: absolute;
+}
+.clear{
+    clear:both;
+}

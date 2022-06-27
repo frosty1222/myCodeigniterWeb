@@ -1,0 +1,233 @@
+.camera .child-camera ul {
+	width: 287px;
+	list-style: none;
+	height: 320px;
+	visibility: visible;
+	padding: 3px;
+	margin: 3.5px;
+	box-shadow: 0.1px 0.1px 0.1px 1px rgba(1,1,1,.1);
+	float: left;
+}
+.main_home_pp_product3{
+    width:100%;
+    height:auto;
+    margin: 0 auto;
+}
+.home_pp_product3 {
+	margin-top: 10px;
+	width: 1200px;
+	background: green;
+	height: 40px;
+    margin: 0 auto;
+}
+
+.home_pp_product3 div ul{
+    width:19%;
+    float:left;
+    color: #fff;
+    line-height: 2;
+    font-size:20px;
+    text-transform:uppercase;
+}
+.home_pp_product3 div ul .hi {
+    float: left;
+    color: #fff;
+    line-height: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 6px;
+    font-weight: 418;
+    padding-left: 9px;
+}
+.home_pp_product3 div ul .hi::before {
+    content: "";
+    background: #f58220;
+    position: absolute;
+    top: 0px;
+    width: 6px;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+}
+.home_pp_product3 .link_view_all {
+    float: right;
+    margin-top: -2px;
+}
+ .home_pp_product3 .link_view_all a{
+      color:#fff;
+      padding:0 13px;
+      margin: 1px;
+      line-height:3;
+      font-size:15px;
+      text-transform: capitalize;
+ }
+ .home_pp_product3 .link_view_all a:hover{
+     color:yellow;
+ }
+.camera {
+	cursor: pointer;
+	margin-top: 10px;
+	width: 1200px;
+	height: auto;
+    margin: 0 auto;
+}
+.camera .child-camera ul:hover{
+    box-shadow: 1px 1px 1px 0px rgba(0, 3, 5, 0.4);
+    opacity:1;
+}
+.camera .child-camera ul h3 {
+    font-weight:normal;
+    color: grey;
+    font-size: 15px;
+    text-transform: capitalize;
+    width: 100px;
+    margin-top: 250px;
+    position: static;
+}
+ .camera .child-camera ul .pep {
+    font-weight: 100;
+    color: grey;
+    font-size: 15px;
+    text-transform: capitalize;
+    width: 100px;
+    margin-top: 200px;
+    position: static;
+}
+.camera .child-camera ul .pep2 {
+    font-weight: 100;
+    color: grey;
+    font-size: 15px;
+    text-transform: capitalize;
+    width: 100px;
+    margin-top: 240px;
+    position: static;
+}
+.camera .child-camera{
+    display: inline-block;
+}
+.camera .child-camera ul h4 {
+    width: 50px;
+    height: 10px;
+    color: orange;
+    margin-top: 0px;
+    margin-right: 130px;
+    font-weight: lighter;
+    font-size: 15px;
+}
+.camera .child-camera ul h3:hover{
+      color:orange;
+  }
+.camera .child-camera .pop span{
+      text-decoration:line-through;
+      font-weight:normal;
+      color:wheat;
+      
+  }
+.camera .child-camera .pop2 span{
+      text-decoration:line-through;
+      font-weight:normal;
+      color:wheat;
+      
+  }
+  
+.camera .child-camera ul .pop{
+    text-justify: space-between;
+    padding:0 10px;
+    width:150px;
+    height:10px;
+    color:orange;
+    top:100px;
+    float:right;
+    margin-right:40px;
+    margin-top:0px;
+  }
+.camera .child-camera ul .pop2{
+    text-justify: space-between;
+    padding:0 10px;
+    width:150px;
+    height:10px;
+    color:orange;
+    top:100px;
+    float:right;
+    margin-right:40px;
+    margin-top:0px;
+  }
+
+.camera .child-camera li img {
+    width: 180px;
+    height: 150px;
+    margin-left: 40px;
+    top: 30px;
+    transition: transform 0.5s ease-in-out;
+    box-shadow: none !important;
+    position: absolute;
+    top: 80px;
+}
+.camera .child-camera li img:hover{
+    transform:scale(1.1);
+}
+.camera .child-camera ul .a_icon {
+	display: flex;
+	justify-content: center;
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	top: 150px;
+	/* left: 40px; */
+	border: 1px solid aqua;
+	height: 50px;
+	width: 200px;
+}
+.camera .child-camera ul:hover .a_icon{
+    visibility:visible;
+    opacity:1;
+}
+.discount_tag {
+    top: -5px;
+    right: 10px;
+    position: absolute;
+    background: #f58220;
+    width: auto;
+    padding: 5px 10px;
+    color: #FFF;
+    font-weight: normal;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    cursor: default;
+    z-index: 1;
+    font-size: 15px;
+    line-height: 20px;
+    max-width: 35px;
+}
+.discount_tag:before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-bottom: 5px solid #e07111;
+    border-left: 8px solid transparent;
+    top: 0px;
+    right: 49px;
+}
+.discount_tag:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 23px solid transparent;
+    border-right: 22px solid transparent;
+    border-top: 10px solid #f58220;
+    top: 29.5px;
+    right: 2px;
+}
+.status_tag {
+    color: white;
+    position: absolute;
+    width: 65px;
+    height: 30px;
+    text-transform: capitalize;
+    font-size: 15px;
+    background: red;
+}

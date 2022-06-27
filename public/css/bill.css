@@ -1,0 +1,188 @@
+.main-container .bill{
+    width: 100%;
+    height: auto;
+    margin:auto;
+    padding: 0px;
+}
+.bill .sub-bill{
+    width:1200px;
+    height:auto;
+    text-align:left;
+}
+.bill .bill-banner{
+    width:100%;
+    height:auto;
+    margin:auto;
+    overflow:hidden;
+}
+.bill .bill-banner img{
+    width:100%;
+    height:auto;
+}
+.bill .bill-banner .bill-breadcrumbs{
+    width:100%;
+    height:50px;
+    background-color: rgba(0,0,0,0.7);
+    padding-left:60px;
+    margin-top:-60px;
+}
+.bill-banner .bill-breadcrumbs li{
+    list-style:none;
+    display:inline;
+    line-height: 3;
+    color:#fff;
+}
+.bill-breadcrumbs .bill-word{
+    color:yellow !important;
+}
+.sub-bill .slogan{
+    background:green;
+    height:45px;
+    margin-top:50px;
+    margin-bottom: 20px;
+}
+.sub-bill .slogan::before{
+    content: '';
+    background-color:orange;
+    width:7px;
+    height:45px;
+    position:absolute;
+}
+.sub-bill .slogan legend{
+    padding-left:10px;
+    font-size:25px;
+    color:#fff;
+    line-height:2;
+    text-transform:uppercase;
+    font-family: monospace;
+}
+.sub-bill .table{
+    width:100%;overflow:hidden;margin: auto;
+}
+.sub-bill .table tbody tr #bill-name{
+    width:30% !important;
+    border:none;text-align:left;
+    font-size:20px;text-transform: capitalize;
+}
+.sub-bill .table tbody tr{
+    width:100%;
+    border-bottom:2px solid #333 !important;
+}
+.sub-bill .table tbody tr #bill-input input{
+    width:98%;
+    height:35px;
+    margin:5px;
+}
+.sub-bill .table tbody tr #bill-input{
+    width:70%;
+    border:none;
+}
+.sub-bill .table tbody tr td .form-control{
+    width:98%;
+    height:37px;
+    margin:5px;
+}
+.sub-bill .table tbody tr td{
+    border:none;
+}
+.sub-bill .table tbody tr td #diachi{
+    height:35px;
+    width:50% !important;
+    float:left;
+    margin:5px;
+}
+.sub-bill .table tbody tr td .info_address{
+    display:flex;
+    width:46%;
+    margin:0px;
+    float:right;
+    height:37px;
+    margin:5px;
+    margin-right:5px;
+}
+.table tbody tr td .info_address #Country{
+   width:90%;
+   overflow:hidden;
+} 
+.table tbody tr td .info_address #City{
+    width:90%;
+}
+.table tbody tr #bill-day{
+    height:35px;
+    width:50%;
+    float:left;
+    margin-left:0px;
+}
+.table tbody tr #bill-day #day{
+    width:30%;
+    height:35px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.table tbody tr td .gender{
+    width:auto;
+    margin:5px;
+    display:inline;
+    line-height:2.5;
+}
+.table tbody tr td .gender .gender{
+    line-height:2.5;
+}
+.table tbody #bill-check{
+    height:35px;
+    border:none;
+    vertical-align: left;;
+}
+.table tbody tr .button{
+    position:relative;
+    vertical-align:center;
+}
+.table tbody tr .button .bill-button input{
+    height:40px;
+    background:green;
+    color:#fff;
+    text-transform:uppercase;
+    padding:0px 20px;
+    width:100px;
+    text-align:center;
+}
+.table tbody tr .button .bill-button input:hover{
+    background-color:orange;
+    border:none;
+    cursor:pointer;
+    overflow:hidden;
+}
+#page li{
+    width: auto !important;
+    height: auto;
+    border: 1px solid #eee;
+    background-color: aqua !important;
+}
+.sub_address #press_address{
+    text-transform: uppercase;
+    background-color: #eee;
+    border: 1px solid red;
+    cursor: pointer;
+    text-align: center;
+}
+.sub_address:hover li{
+    display:block;
+    visibility: visible;
+    opacity:1;
+}
+.table tbody tr td .sub_address{
+    text-align:left;
+    background-color:pink;
+    text-transform: uppercase;
+    color:yellow;
+    width:50%;
+    position:relative;
+    height:auto;
+}
+.sub_address li {
+    list-style:none;
+    display:none;
+}
+.table tbody tr td{
+    overflow: hidden;
+}

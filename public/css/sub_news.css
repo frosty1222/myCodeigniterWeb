@@ -1,0 +1,344 @@
+.paper-left .head-content{
+    width:870px;
+    height:auto;
+}
+.bottom-content {
+    width: 870px;
+    height: auto;
+    overflow: hidden;
+    margin-top: 100px;
+}
+.paper-left .head-content legend{
+    width:880px;
+    height:auto;
+    font-size:25px;
+    text-transform:uppercase;
+    font-weight:100;
+    color:#5a5a5a;
+    margin-top: 50px;
+    border-bottom:1px solid #5a5a5a;
+    padding-bottom:5px;
+}
+.paper-left .head-content .main-content .content-inside #calendar{
+   list-style: none;
+   font-size:17px;
+   font-style: italic;
+   color:#5a5a5a;
+   text-transform:capitalize;
+}
+.main-content .content-inside li{
+    list-style: none;
+}
+.main-content .content-inside #text{
+     border-bottom:1px solid #5a5a5a;
+     padding-bottom:5px;
+}
+.main-content .content-inside #text1{
+     border-bottom:1px solid #5a5a5a;
+     padding-bottom:5px;
+}
+.main-content .content-inside li h4{
+    color:#5a5a5a;
+    font-style:italic;
+    font-size:17px;
+    font-weight:100;
+    list-style: none;
+}
+.main-content .content-inside h5{
+    font-weight:100;
+    font-style:initial;
+    color:#5a5a5a;
+    margin-bottom:15px;
+}
+.main-content .content-inside li img{
+    width:100%;
+}
+/* .bottom-content .bottom-sub {
+    width: 4000px;
+    height:500px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    overflow:scroll;
+} */
+.bottom-content .item li .img img{
+    width:300px;
+    height: 200px;
+    display: inline-flex;
+}
+.bottom-content .item li .img img:hover{
+    transform:scale(1.2);
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);
+    -o-transform:scale(1.2);
+}
+
+.bottom-content .item li .img {
+    width:300px;
+    height: 200px;
+    position:relative;
+    transition:all 0.6s ease-in-out;
+    -webkit-transition:all 0.6s ease-in-out;
+    -moz-transition:all 0.6s ease-in-out;
+    -ms-transition:all 0.6s ease-in-out;
+    -o-transition:all 0.6s ease-in-out;
+    overflow:hidden;
+    margin: 10px;
+}
+.bottom-content .item li{
+    display: inline-flex;
+    width:300px;
+    /* height:400px; */
+    margin:10px;
+}
+.bottom-content .item li h3 {
+    width: 290px;
+    height: 200px;
+    display: block;
+    margin-top: 210px;
+    position: absolute;
+    margin-left: 10px;
+}
+.bottom-content .item li h3 p a{
+    font-size:17px;
+    font-weight:100;
+    color:#5a5a5a;
+    text-transform:none;
+}
+.bottom-content .item{
+    height:auto;
+}
+.bottom-content .item li h3 span{
+    font-size:17px;
+    font-weight:100;
+    color:#5a5a5a;
+    text-transform:none;
+}
+.bottom-content .item li h3 .fa-calendar {
+    color:orange;
+}
+.bottom-content legend {
+    width: 850px;
+    height: 45px;
+    color: #fff;
+    font-size: 25px;
+    padding-left: 20px;
+    background-color: green;
+    margin-bottom: 20px;
+    line-height: 1.8;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.bottom-content legend::before{
+    content: " ";
+    background-color: orange;
+    width:7px;
+    margin-left:-20px;
+    height:45px;
+    position: absolute;
+}
+.bottom-content .item {
+    height: 400px;
+}
+/* reponsive view page */
+@media screen and (max-width:600px){
+    .paper-left .head-content{
+    width:100%;
+    height:auto;
+   }
+   .paper-left .head-content legend {
+    width: 100%;
+   }
+   .tag_layout {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    margin-top: 10px;
+   }
+   .tag_layout #tag {
+    box-shadow: none !important;
+    width: 100%;
+   }
+   .bottom-content{
+       width:100%;
+   }
+   .bottom-content legend {
+    width: 100%;
+   }
+}
+@media screen and (min-width: 600px) and (max-width:775px){
+   .paper-left .head-content{
+    width:100%;
+    height:auto;
+   }
+   .paper-left .head-content legend {
+    width: 100%;
+   }
+   .tag_layout {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    margin-top: 10px;
+   }
+   .tag_layout #tag {
+    box-shadow: none !important;
+    width: 100%;
+   }
+   .bottom-content{
+       width:100%;
+   }
+   .bottom-content legend {
+    width: 100%;
+   }
+}
+@media screen and (min-width: 778px) and (max-width:1025px){
+   .paper-left .head-content{
+    width:100%;
+    height:auto;
+   }
+   .paper-left .head-content legend {
+    width: 100%;
+   }
+   .tag_layout {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    margin-top: 10px;
+   }
+   .tag_layout #tag {
+    box-shadow: none !important;
+    width: 100%;
+   }
+   .bottom-content{
+       width:100%;
+   }
+   .bottom-content legend {
+    width: 100%;
+   }
+}
+@media screen and (max-width:600px) and (orientation:landscape){
+   .paper-left .head-content{
+    width:100%;
+    height:auto;
+   }
+   .paper-left .head-content legend {
+    width: 100%;
+   }
+   .tag_layout {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    margin-top: 10px;
+   }
+   .tag_layout #tag {
+    box-shadow: none !important;
+    width: 100%;
+   }
+   .bottom-content{
+       width:100%;
+   }
+   .bottom-content legend {
+    width: 100%;
+   }
+}
+@media screen and (min-width:800px) and (max-width:850px){
+   .paper-left .head-content{
+    width:100%;
+    height:auto;
+   }
+   .paper-left .head-content legend {
+    width: 100%;
+   }
+   .tag_layout {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    margin-top: 10px;
+   }
+   .tag_layout #tag {
+    box-shadow: none !important;
+    width: 100%;
+   }
+   .bottom-content{
+       width:100%;
+   }
+   .bottom-content legend {
+    width: 100%;
+   }
+}
+@media screen and (min-width:1361px) and (max-width:1925px){
+    
+}
+ /* <ul class="bottom-sub">
+                        <li id="sub1">
+                            <div class="img"><img src="<?= public_url() ?>/img/event/tintuc2.jpg" alt=""></div>
+                            <h3>
+                                <p><a href="">Những cách “rẻ nhất” để cải thiện loa tivi nhà bạn</a></p>
+                                <i class="fa fa-calendar"> 25/08/2021</i>
+                                <br>
+                                <span>Mua bộ định tuyến Wi-Fi Asus TUF Gaming AX3000 thời điểm này niềm vui trọn vẹn vì có giá tốt... </span>
+                            </h3>
+                        </li>
+                        <li id="sub1">
+                            <div class="img"><img src="<?= public_url() ?>/img/event/tintuc3.jpg" alt=""></div>
+                            <h3>
+                                <p><a href="">Những cách “rẻ nhất” để cải thiện loa tivi nhà bạn</a></p>
+                                <i class="fa fa-calendar"> 27/08/2021</i>
+                                <br>
+                                <span>Mua bộ định tuyến Wi-Fi Asus TUF Gaming AX3000 thời điểm này niềm vui trọn vẹn vì có giá tốt... </span>
+                            </h3>
+                        </li>
+                        <li id="sub1">
+                            <div class="img"><img src="<?= public_url() ?>/img/event/tintuc4.jpg" alt=""></div>
+                            <h3>
+                                <p><a href="">Những cách “rẻ nhất” để cải thiện loa tivi nhà bạn</a></p>
+                                <i class="fa fa-calendar"> 25/10/2021</i>
+                                <br>
+                                <span>Mua bộ định tuyến Wi-Fi Asus TUF Gaming AX3000 thời điểm này niềm vui trọn vẹn vì có giá tốt... </span>
+                            </h3>
+
+                        </li>
+                        <li id="sub1">
+                            <div class="img"><img src="<?= public_url() ?>/img/event/tintuc2.jpg" alt=""></div>
+                            <h3>
+                                <p><a href="">Những cách “rẻ nhất” để cải thiện loa tivi nhà bạn</a></p>
+                                <i class="fa fa-calendar"> 25/09/2021</i>
+                                <br>
+                                <span>Mua bộ định tuyến Wi-Fi Asus TUF Gaming AX3000 thời điểm này niềm vui trọn vẹn vì có giá tốt... </span>
+                            </h3>
+
+                        </li>
+                        <li id="sub1">
+                            <div class="img"><img src="<?= public_url() ?>/img/event/tintuc3.jpg" alt=""></div>
+                            <h3>
+                                <p><a href="">Những cách “rẻ nhất” để cải thiện loa tivi nhà bạn</a></p>
+                                <i class="fa fa-calendar"> 27/08/2021</i>
+                                <br>
+                                <span>Mua bộ định tuyến Wi-Fi Asus TUF Gaming AX3000 thời điểm này niềm vui trọn vẹn vì có giá tốt... </span>
+                            </h3>
+                        </li>
+                        <li id="sub1">
+                            <div class="img"><img src="<?= public_url() ?>/img/event/tintuc4.jpg" alt=""></div>
+                            <h3>
+                                <p><a href="">Những cách “rẻ nhất” để cải thiện loa tivi nhà bạn</a></p>
+                                <i class="fa fa-calendar"> 30/08/2021</i>
+                                <br>
+                                <span>Mua bộ định tuyến Wi-Fi Asus TUF Gaming AX3000 thời điểm này niềm vui trọn vẹn vì có giá tốt... </span>
+                            </h3>
+                        </li>
+                        <li id="sub1">
+                            <div class="img"><img src="<?= public_url() ?>/img/event/tintuc3.jpg" alt=""></div>
+                            <h3>
+                                <p><a href="">Những cách “rẻ nhất” để cải thiện loa tivi nhà bạn</a></p>
+                                <i class="fa fa-calendar"> 4/08/2021</i>
+                                <br>
+                                <span>Mua bộ định tuyến Wi-Fi Asus TUF Gaming AX3000 thời điểm này niềm vui trọn vẹn vì có giá tốt... </span>
+                            </h3>
+                        </li>
+                        <div class="pre-ic">
+                            <span id="left-ic" ><i class="fad fa-chevron-left"></i></span>
+                            <span id="right-ic" ><i class="fad fa-chevron-right"></i></span>
+                        </div>
+                      
+                    </ul> */

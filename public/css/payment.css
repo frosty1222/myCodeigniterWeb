@@ -1,0 +1,276 @@
+.main-container .sub-container .payment{
+    width:100%;
+    height:auto;
+    margin:auto;
+}
+.sub-container .payment .payment-banner{
+    width:100%;
+    height:auto;
+    margin:auto;
+}
+.payment .payment-banner img{
+    width:100%;
+    margin:auto;
+    height:auto;
+}
+.payment-banner .payment-breadcrumb{
+    width:100%;
+    height:50px;
+    background-color: rgba(0,0,0,0.7);
+    margin-top:-60px;
+    position: relative;
+}
+.payment-breadcrumb #breadcrumbs li{
+    display: inline;
+    color: white;
+    font-size:20px;
+    line-height:2.5;
+}
+.payment-breadcrumb #breadcrumbs{
+    padding-left:60px;
+}
+.payment-breadcrumb #breadcrumbs #payment-word{
+    color:yellow !important;
+}
+.sub-container .main-pay{
+    width:100%;
+    height:auto;
+    margin:auto;
+}
+.sub-container .main-pay .sub-pay{
+    width:1200px;
+    height:auto;
+    margin:auto;
+}
+.main-pay .sub-pay .slogan-pay{
+    width:100%;
+    background-color:green;
+    height:50px;
+    margin-top: 60px;
+}
+.sub-pay .slogan-pay legend{
+    font-size:20px;
+    text-transform:uppercase;
+    color:#fff;
+    margin-left:15px;
+    line-height:2.5;
+}
+.main-pay .sub-pay .slogan-pay::before{
+    content: " ";
+    background-color:orange;
+    position:absolute;
+    width:7px;
+    height:50px;
+}
+.sub-pay .support-pay{
+    margin-top:20px;
+    margin-bottom:30px;
+    height:150px;
+    width:100%;
+}
+.support-pay span a{
+    padding: 10px 15px;
+    background-color:green;
+    text-transform: uppercase;
+    color: #fff;
+}
+.support-pay span{
+    margin-top: 20px;
+    padding-top:10px;
+}
+.sub-pay .main-pay .header-banner{
+    width:100%;
+    height:auto;
+}
+.main-pay .header-banner .table{
+    width:100%;
+    height:150px;
+    background-color:#2B3A42;
+}
+.table tbody tr #crown span{
+  font-size:10px;
+}
+.header-banner .payid {
+    background-color: green;
+    height: 150px;
+    margin-top: 0px;
+    width: 100%;
+    overflow: hidden;
+}
+.payid .word #pay_id{
+    color:yellow;
+    font-size:25px;
+    margin-top:20px;
+}
+.header-banner .payid .word{
+    padding:10px;
+    width:98%;
+}
+.header-banner .list-sentence{
+    background-color:#eeee;
+    width:100%;
+    height:150px;
+}
+.list-sentence .span-word span{
+    color: black;
+    font-size:17px;
+}
+.list-sentence .span-word{
+    position: absolute;
+    margin:10px;
+}
+.header-banner .cus-infor{
+    width:100%;
+    margin: auto;
+    background-color: #fff;
+}
+.cus-infor .table1{
+    width:100%;
+    height: auto;
+}
+.table1 tbody tr #info{
+   border:none;
+   border:none;
+    text-align:left;
+    color:#fff;
+    padding:10px !important;
+    background-color:#2B3A42 !important;
+}
+.table1 tbody tr td{
+    text-align:left;
+    padding:8px 8px;
+}
+.table2 .table-inner{
+    width:100%;
+    height: auto;
+}
+.header-banner .table2 {
+    width:100%;
+    height: auto;
+    margin:auto;
+}
+.table-inner thead tr th{
+    width:auto;
+    text-align:left;
+    padding:8px 8px;
+    height:35px;
+}
+.table-inner tbody tr #vast{
+    text-align:left;
+    padding:8px 8px;
+    height:35px;
+}
+.table-inner tbody .sub-table{
+    width:100%;
+    height:auto;
+}
+.sub-table{
+    width:100%;
+}
+.sub-table tbody tr td{
+    height:35px;
+    padding:8px 8px;
+}
+.sub-table tbody tr #first{
+    width:70%;
+    text-align:right;
+}
+.sub-table tbody tr td{
+    text-align:right;
+}
+table,tr,td,th,tbody,thead{
+    border:0.2px solid black;
+}
+.type_pay{
+    width:1200px;
+    height:auto;
+    margin:auto;
+}
+.type_pay .list-pay{
+    width:100%;
+    background-color: #2B3A42;
+    height: auto;
+    margin:auto;
+}
+.list-pay .head-word{
+    color:orange;
+}
+.list-pay .head-word legend{
+    padding:10px;
+}
+.list-pay ul li {
+    list-style: none;
+    background-color: gray;
+    width: 380px;
+    margin: 10px;
+    height: 40px;
+    text-align: center;
+    color:#fff;
+}
+.list-pay ul li:hover{
+    background-color:#DD1A5B;
+}
+.list-pay ul li img{
+    margin-top:10px;
+}
+.list-pay ul{
+    width:100%;
+    display:flex;
+}
+.list-pay ul li a{
+    line-height: 2;
+}
+.list-pay span{
+    padding:10px;
+    font-size: 17px;
+}
+.list-pay span a{
+    color: orange;
+    text-decoration: none;
+}
+.list-pay .pay-attention{
+    width:100%;
+    height:auto;
+    padding:3px;
+}
+.list-pay .pay-attention .attention{
+    display:block;
+}
+.pay-attention .attention li{
+    background-color:transparent;
+    width:100%;
+    text-align:left;
+    color:#fff;
+    
+}
+.list-pay ul li img{
+    width:35px;
+    height:15px;
+    margin-left:0x;
+    position: relative;
+}
+.pay-attention .attention li:hover{
+    background-color:transparent;
+}
+.headquater{
+    background-color:green;
+}
+.headquater .inder .word-header legend{
+    color:#fff;
+}
+.headquater .inder{
+    padding:10px;
+    width:100%;
+    font-size:17px;
+}
+.headquater .inder .second-header legend{
+    color:#fff;
+}
+.headquater .inder{
+    font-size:17px;
+    width:100%;
+}
+.headquater .inder .second-header span a{
+    color:#fff;
+    font-size: 17px;
+}

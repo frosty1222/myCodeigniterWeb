@@ -1,0 +1,300 @@
+.main-support{
+    width:100%;
+    margin:0;
+    padding:0;
+    justify-content:center;
+}
+.main-support .support-banner{
+    width:100%; 
+    margin:0;
+    padding:0;
+}
+.main-support .support-banner img {
+    position: relative;
+    width: 100%;
+}
+.main-support .support-banner .support-slogan{
+    background: rgba(0,0,0,0.7);
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(0, 0, 0, 0.7);
+    width:100%;
+    height:60px;
+    position:absolute;
+    margin-top:-70px;
+}
+.main-support .support-banner .support-slogan ul {
+    margin-left: 30px;
+    position: absolute;
+}
+.main-support .support-banner .support-slogan ul li{
+    display:inline;
+    color:#fff;
+    font-size:17px;
+    font-weight:100;
+    padding-left:10px;
+    line-height:3.5;
+}
+.main-support .support-banner .support-slogan ul li::after{
+    content:"/";
+    position:absolute;
+    padding-left:5px;
+}
+.main-support .support-banner .support-slogan ul .special-support{
+   color:yellow;
+}
+.main-support .support-banner .support-slogan ul .special-support::after{
+    content:"";
+}
+.main-support .news-right-drop-bar .news-list {
+    width: 100%;
+    border: 1px solid whitesmoke;
+    margin-bottom: 20px;
+}
+.main-support .news-right-drop-bar{
+    width:350px;
+    height: auto;
+}
+.main-support .support{
+    width:1200px;
+    height: auto;
+    margin-bottom: 20px;
+    display:flex;
+}
+.main-support .right-support{
+    width:850px;
+    height: auto;
+    margin:20px;
+}
+.main-support .right-support legend{
+    font-size:25px;
+    font-weight:100;
+    border-bottom:1px solid #ccc;
+    color:#5a5a5a;
+}
+.right-support .general-support h3{
+    color:#5a5a5a;
+    font-weight:100;
+}
+.right-support .general-support h5{
+     color:#5a5a5a;
+     font-weight:100;
+     font-size:17px;
+}
+.right-support .without-support h3{
+    color:#5a5a5a;
+    font-weight:100;
+}
+.right-support .without-support h5{
+    color:#5a5a5a;
+    font-weight:100;
+    font-size:17px;
+}
+.right-support .support-method h3{
+    color:#5a5a5a;
+    font-weight:100;
+}
+.right-support .support-method h5{
+    color:#5a5a5a;
+    font-weight:100;
+    font-size:17px;
+}
+.right-support .up-support h3{
+    color:#5a5a5a;
+    font-weight:100;
+}
+.right-support .up-support h5{
+    color:#5a5a5a;
+    font-weight:100;
+    font-size:17px;
+}
+.right-support .buying-service-support h3{
+    color:#5a5a5a;
+    font-weight:100;
+}
+.right-support .buying-service-support h5{
+    color:#5a5a5a;
+    font-weight:100;
+    font-size:17px;
+}
+.right-support .buying-service-support h4{
+    color:#5a5a5a;
+    font-weight:100;
+    font-size:17px;
+}
+/* reponsive view page */
+@media screen and (max-width:600px){
+    .main-support .support-banner img {
+    position: relative;
+    height: 150px;
+    width: 100%;
+   }
+   .main-support .support {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    display: block;
+   }
+   .main-support .right-support {
+    width: 100%;
+    height: auto;
+    margin: 3px;
+   }
+}
+@media screen and (min-width: 600px) and (max-width:775px){
+    .main-support .support-banner img {
+    position: relative;
+    height: 150px;
+    width: 100%;
+   }
+   .main-support .support {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    display: block;
+   }
+   .main-support .right-support {
+    width: 100%;
+    height: auto;
+    margin: 3px;
+   }
+   .main-support {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+   }
+   .main-support .news-right-drop-bar {
+    width: 100%;
+    height: auto;
+   }
+   .news-cate ul li .inside {
+    width: 60%;
+    text-align: left;
+    margin-top: 20px;
+    height: 100px;
+    margin-left: 5px;
+   }
+}
+@media screen and (min-width: 778px) and (max-width:1025px){
+    .main-support .support-banner img {
+    position: relative;
+    height: 150px;
+    width: 100%;
+   }
+   .main-support .support {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    display: flex;
+   }
+   .main-support .right-support {
+    width: 100%;
+    height: auto;
+    margin: 3px;
+   }
+   .main-support {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+   }
+   .main-support .news-right-drop-bar {
+    width: 80%;
+    height: auto;
+   }
+   .news-cate ul li .inside {
+    width: 40%;
+    text-align: left;
+    margin-top: 20px;
+    height: 100px;
+    margin-left: 5px;
+   }
+}
+@media screen and (max-width:600px) and (orientation:landscape){
+    .main-support .support-banner img {
+    position: relative;
+    height: 150px;
+    width: 100%;
+   }
+   .main-support .support {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    display: block;
+   }
+   .main-support .right-support {
+    width: 100%;
+    height: auto;
+    margin: 3px;
+   }
+   .main-support {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+   }
+   .main-support .news-right-drop-bar {
+    width: 100%;
+    height: auto;
+   }
+   .news-cate ul li .inside {
+    width: 40%;
+    text-align: left;
+    margin-top: 20px;
+    height: 100px;
+    margin-left: 5px;
+   }
+}
+@media screen and (min-width:800px) and (max-width:850px){
+   .main-support .support-banner img {
+    position: relative;
+    height: 150px;
+    width: 100%;
+   }
+   .main-support .support {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    display:flex;
+   }
+   .main-support .right-support {
+    width: 100%;
+    height: auto;
+    margin: 3px;
+   }
+   .main-support {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+   }
+   .main-support .news-right-drop-bar {
+    width: 80%;
+    height: auto;
+   }
+   .news-cate ul li .inside {
+    width: 40%;
+    text-align: left;
+    margin-top: 20px;
+    height: 100px;
+    margin-left: 5px;
+   }
+}
+@media screen and (min-width:1361px) and (max-width:1925px){
+    .main-support .support {
+    width: 1200px;
+    height: auto;
+    margin-bottom: 20px;
+    display: flex;
+    margin-left: 100px;
+    margin-top:20px;
+   }
+}

@@ -1,0 +1,128 @@
+.main_new{
+    width:1200px;
+    height:auto;
+    margin:0 auto;
+}
+.New {
+	width: 1200px;
+	height: auto;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	display: flex;
+}
+.New .new_left {
+	width: 56%;
+	/* background: wheat; */
+	list-style: none;
+	position: relative;
+	margin-top: 70px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	box-shadow: 0.1px 0.1px 0.1px 1px rgba(1,1,1,.1);
+	height: 560px;
+}
+.New .calen {
+    color: #757575;
+    font-size: 13px;
+    font-family: initial;
+}
+.New .new_left ul{
+    width: 100%;
+    height:300px;
+}
+.New .new_left ul h3 {
+	float: left;
+	margin-left: 0px;
+	margin-top: 10px;
+	font-size: 20px;
+	font-weight: lighter;
+}
+.New .new_left ul p {
+    margin-left: 0px;
+}
+.New .new_left ul:hover li img{
+     filter: grayscale(100%);
+}
+.New .new_left ul .calen i {
+    position: relative;
+    left: 0px;
+    padding-right:5px;
+    font: normal normal normal 14px/1 FontAwesome;
+    color: orange;
+}
+.New .new_left ul a li img {
+    width: 100%;
+    height: 350px;
+    display: block;
+    overflow: hidden;
+    line-height: 0;
+    position: relative;
+    margin-left: 0px;
+}
+.New .new_right .right_ad,span,p{
+     color:#757575;
+     font-size: 15px;
+     text-decoration: none;
+ }
+.New .new_right .right_ad,h3{
+     text-transform: uppercase;
+     color: green;
+     text-decoration-line:none;
+ }
+.New .new_right .right_ad,h3:hover{
+      color: orange;
+      cursor: pointer;
+  }
+.New .new_right ul li img:hover{
+    filter: grayscale(100%);
+    color:orange;
+}
+.New .new_right ul li img {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.New .new_right ul {
+    width:100%;
+    display:flex;
+    height:auto;
+    margin-bottom:20px;
+}
+.New .new_right ul .tes h3 a {
+    color: green;
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+.New .new_right ul .tes span{
+    color:orange;
+}
+.new_right ul .tes {
+    width: 50%;
+    margin-left: 10px;
+}
+.New .new_right {
+    /* background: wheat; */
+    font-size: 15px;
+    width: 43.5%;
+    top: 0px;
+    position: relative;
+    display: block;
+    visibility: visible;
+    font-size: 15px;
+    float: right;
+    margin-left: 31px;
+    margin-right: 0px;
+}
+.new_right ul .tes {
+    width:50%;
+}
+.new_right .icon  i{
+    /* padding-right: 14px; */
+    font: normal normal normal 14px/1 FontAwesome;
+    color: orange;
+}
+.new_right ul li{
+    list-style:none;
+}

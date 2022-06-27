@@ -1,0 +1,571 @@
+.main-service{
+    width:100%;
+    background-color:transparent;
+    margin:0px;
+    padding:0px;
+}
+.main-service .service-word {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    margin-top: -60px;
+}
+.main-service .service-word ul{
+    margin-left:60px;
+}
+.main-service .service-word ul li{
+    display:inline-block;
+    line-height:3.5;
+    padding-left:10px;
+    color:#fff;
+}
+.main-service .service-word ul li::after{
+    content:"/";
+    position:absolute;
+    padding-left:5px;
+    color:#fff;
+}
+.main-service .service-word ul .special::after{
+    content:"";
+}
+.main-service .service-word ul .special{
+    color:yellow;
+}
+.main-service .service-banner img{
+    width:100%;
+    position: relative;
+}
+.main-service .service-list{
+    width:1200px;
+    background-color:transparent;
+}
+.service-list .service-slogan{
+    background-color:green;
+    height:45px;
+    width:100%;
+    font-size:20px;
+    padding-left:20px;
+    line-height:2;
+    color:#fff;
+    margin-top: 30px;
+}
+.main-service .service-list .service-inside{
+    width:1200px;
+    margin:auto;
+    display:flex;
+}
+.service-list .service-slogan::before{
+    content:"";
+    background-color:orange;
+    width:7px;
+    position:absolute;
+    height:45px;
+    margin-left:-20px;
+}
+.service-list .service-list-left {
+    width: 850px;
+    box-shadow:0px 1px 1px rgb(0 0 0 / 20%);
+    margin-left: 0px;
+    margin-top: 30px;
+    height: auto;
+    position: relative;
+    margin-bottom: 30px;
+}
+.service-list .service-list-left ul li{
+   display:flex;
+   border-bottom:1px solid #333;
+   margin-bottom: 20px;
+   width:95%;
+}
+.service-list .service-list-left ul li .img{
+    overflow:hidden;
+    width:380px;
+    height:280px;
+    margin-bottom:20px;
+    transition:all 0.5s ease-in-out;
+    -webkit-transition:all 0.5s ease-in-out;
+    -moz-transition:all 0.5s ease-in-out;
+    -ms-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+}
+.service-list .service-list-left ul li .img img:hover{
+    transform:scale(1.2);
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);
+    -o-transform:scale(1.2);
+    
+}
+.service-list .service-list-left ul li .inside_word h2 a{
+   color: #333;
+   font-weight:100;
+   text-align: center;
+}
+.service-list .service-list-left ul li .inside_word{
+    margin-left:15px;
+    margin-right:10px;
+    font-weight:100;
+    width:400px;
+}
+.service-list .service-list-left ul li .inside_word h4{
+    font-weight:100;
+    margin-bottom: 10px;
+}
+.service-list .service-list-left ul li .inside_word .more{
+    background-color:green;
+    width:30px;
+    height:40px;
+    padding:10px 20px;
+    margin-top:20px;
+}
+.service-list .service-cate-right {
+    height: 170px;
+    width: 300px;
+    margin-top: 20px;
+    border: 1px solid whitesmoke;
+}
+.service-list .service-cate-right .heading-service{
+    width:300px;
+    background-color:green;
+    height:45px;
+}
+.service-list .service-cate-right .heading-service .fa-bars{
+    color:#fff;
+    font-size:20px;
+    position:absolute;
+    margin: 10px 20px;
+}
+.service-list .service-cate-right .heading-service legend {
+    width: auto;
+    font-size: 18px;
+    margin-top: 5px;
+    padding-left: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 100;
+    position: absolute;
+}
+.service-list .service-cate-right ul li{
+    list-style:none;
+    border-bottom:1px solid #333;
+    height:40px
+}
+.service-list .service-cate-right ul li:hover{
+    background:aqua;
+}
+.service-list .service-cate-right ul li a {
+    color: black;
+    margin-left: 10px;
+    line-height: 2.5;
+}
+/* reponsive view page */
+@media screen and (max-width:600px){
+   .main-service {
+    width: 100%;
+    background-color: transparent;
+    margin: 0px;
+    padding: 0px;
+   }
+    .main-service .service-banner img {
+        width: 100%;
+        position: relative;
+        height: 150px;
+    }
+    .main-service .service-list {
+    width: 100%;
+    background-color: transparent;
+   }
+   .service-list .service-list-left ul li {
+    display: block;
+   }
+  .service-list .service-list-left ul li .inside_word .more {
+    margin-left: 100px;
+    padding:5px 10px;
+  }
+  .service-list .service-list-left {
+    width:100%;
+    height:auto;
+   }
+   .main-container .service-list .service-cate-right {
+    width: 300px;
+    float:none !important;
+    position:inherit !important;
+    top: 555px;
+    right: 50px;
+    border: 1px solid whitesmoke;
+   }
+   .service-list .service-list-left ul li .img {
+    overflow: hidden;
+    width: 380px;
+    height: 280px;
+    margin-bottom: 20px;
+   }
+   .service-list .service-list-left ul li .img{
+    overflow:hidden;
+    width:380px;
+    height:280px;
+    margin-bottom:20px;
+    transition:none;
+    -webkit-transition:none;
+    -moz-transition:none;
+    -ms-transition:none;
+    -o-transition:none;
+}
+    .service-list .service-list-left ul li .img img:hover{
+        transform:none;
+        -webkit-transform:none;
+        -moz-transform:none;
+        -ms-transform:none;
+        -o-transform:none;
+}
+}
+@media screen and (min-width: 600px) and (max-width:775px){
+   .main-service {
+    width: 100%;
+    background-color: transparent;
+    margin: 0px;
+    padding: 0px;
+   }
+    .main-service .service-banner img {
+        width: 100%;
+        position: relative;
+        height: 150px;
+    }
+    .main-service .service-list {
+    width: 100%;
+    background-color: transparent;
+   }
+   .service-list .service-list-left ul li {
+    display: block;
+   }
+  .service-list .service-list-left ul li .inside_word .more {
+    margin-left: 100px;
+    padding:5px 10px;
+  }
+  .service-list .service-list-left {
+    width:100%;
+    height:auto;
+   }
+   .main-container .service-list .service-cate-right {
+    width: 90%;
+    float: none !important;
+    position: inherit !important;
+    top: 555px;
+    /* right: 50px; */
+    border: 1px solid whitesmoke;
+    }
+   .main-service .service-list {
+    width: 100%;
+    background-color: transparent;
+    height: auto;
+   }
+   .main-service .service-list .service-inside {
+    width: 100% !important;
+    margin: auto;
+    display: block !important;
+   }
+   .float-left ul .float {
+    width: 100% !important;
+    position: relative;
+    margin-top: 30px;
+    margin-right: 10px;
+   }
+   .service-list .service-cate-right .heading-service {
+    width: 100%;
+    background-color: green;
+    height: 45px;
+   }
+   .service-list .service-list-left ul li {
+    display: flex;
+    border-bottom: 1px solid #333;
+    margin-bottom: 20px;
+    width: 100%;
+    }
+    .service-list .service-list-left ul li .inside_word {
+    width: 100%;
+   }
+   .service-list .service-list-left ul li .img {
+    overflow: hidden;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+   }
+   .service-list .service-list-left ul li .img img{
+       width: 100%;
+   }
+   .service-list .service-slogan {
+    width: 100%;
+   }
+   .service-list .service-cate-right {
+    width: 100%;
+    position: relative;
+    float: right;
+    /* top: 555px; */
+    /* right: 50px; */
+    border: 1px solid whitesmoke;
+   }
+   .main-service .service-list {
+    width: 100%;
+    background-color: transparent;
+    height: auto;
+   } 
+}
+@media screen and (min-width: 778px) and (max-width:1025px){
+   .main-service {
+    width: 100%;
+    background-color: transparent;
+    margin: 0px;
+    padding: 0px;
+   }
+    .main-service .service-banner img {
+        width: 100%;
+        position: relative;
+        height: 150px;
+    }
+    .main-service .service-list {
+    width: 100%;
+    background-color: transparent;
+   }
+   .service-list .service-list-left ul li {
+    display: block;
+   }
+  .service-list .service-list-left ul li .inside_word .more {
+    margin-left: 100px;
+    padding:5px 10px;
+  }
+  .service-list .service-list-left {
+    width:100%;
+    height:auto;
+   }
+   .main-container .service-list .service-cate-right {
+    width: 90%;
+    float: none !important;
+    position: inherit !important;
+    top: 555px;
+    /* right: 50px; */
+    border: 1px solid whitesmoke;
+    }
+   .main-service .service-list {
+    width: 100%;
+    background-color: transparent;
+    height: auto;
+   }
+   .service-list .service-cate-right .heading-service {
+    width: 100%;
+    background-color: green;
+    height: 45px;
+   }
+   .service-list .service-list-left ul li {
+    display: flex;
+    border-bottom: 1px solid #333;
+    margin-bottom: 20px;
+    width: 100%;
+    }
+    .service-list .service-list-left ul li .inside_word {
+    width: 100%;
+   }
+   .service-list .service-list-left ul li .img {
+    overflow: hidden;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+   }
+   .service-list .service-list-left ul li .img img{
+       width: 100%;
+   }
+   .service-list .service-slogan {
+    width: 100%;
+   }
+   .service-list .service-cate-right {
+    width: 100%;
+    position: relative;
+    float: right;
+    /* top: 555px; */
+    /* right: 50px; */
+    border: 1px solid whitesmoke;
+   }
+   .main-service .service-list {
+    width: 100%;
+    background-color: transparent;
+    height: auto;
+   } 
+}
+@media screen and (max-width:600px) and (orientation:landscape){
+   .main-service {
+    width: 100%;
+    background-color: transparent;
+    margin: 0px;
+    padding: 0px;
+   }
+    .main-service .service-banner img {
+        width: 100%;
+        position: relative;
+        height: 150px;
+    }
+    .main-service .service-list {
+    width: 100%;
+    background-color: transparent;
+   }
+   .service-list .service-list-left ul li {
+    display: block;
+   }
+  .service-list .service-list-left ul li .inside_word .more {
+    margin-left: 100px;
+    padding:5px 10px;
+  }
+  .service-list .service-list-left {
+    width:100%;
+    height:auto;
+   }
+   .main-container .service-list .service-cate-right {
+    width: 90%;
+    float: none !important;
+    position: inherit !important;
+    top: 555px;
+    /* right: 50px; */
+    border: 1px solid whitesmoke;
+    }
+   .main-service .service-list {
+    width: 100%;
+    background-color: transparent;
+    height: auto;
+   }
+   .service-list .service-cate-right .heading-service {
+    width: 100%;
+    background-color: green;
+    height: 45px;
+   }
+   .service-list .service-list-left ul li {
+    display: flex;
+    border-bottom: 1px solid #333;
+    margin-bottom: 20px;
+    width: 100%;
+    }
+    .service-list .service-list-left ul li .inside_word {
+    width: 100%;
+   }
+   .service-list .service-list-left ul li .img {
+    overflow: hidden;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+   }
+   .service-list .service-list-left ul li .img img{
+       width: 100%;
+   }
+   .service-list .service-slogan {
+    width: 100%;
+   }
+   .service-list .service-cate-right {
+    width: 100%;
+    position: relative;
+    float: right;
+    /* top: 555px; */
+    /* right: 50px; */
+    border: 1px solid whitesmoke;
+   }
+   .main-service .service-list {
+    width: 100%;
+    background-color: transparent;
+    height: auto;
+   } 
+}
+@media screen and (min-width:800px) and (max-width:850px){
+   .main-service {
+    width: 100%;
+    background-color: transparent;
+    margin: 0px;
+    padding: 0px;
+   }
+    .main-service .service-banner img {
+        width: 100%;
+        position: relative;
+        height: 150px;
+    }
+    .main-service .service-list {
+    width: 100%;
+    background-color: transparent;
+   }
+   .service-list .service-list-left ul li {
+    display: block;
+   }
+  .service-list .service-list-left ul li .inside_word .more {
+    margin-left: 100px;
+    padding:5px 10px;
+  }
+  .service-list .service-list-left {
+    width:100%;
+    height:auto;
+   }
+   .main-container .service-list .service-cate-right {
+    width: 90%;
+    float: none !important;
+    position: inherit !important;
+    top: 555px;
+    /* right: 50px; */
+    border: 1px solid whitesmoke;
+    }
+   .main-service .service-list {
+    width: 100%;
+    background-color: transparent;
+    height: auto;
+   }
+   .service-list .service-cate-right .heading-service {
+    width: 100%;
+    background-color: green;
+    height: 45px;
+   }
+   .service-list .service-list-left ul li {
+    display: flex;
+    border-bottom: 1px solid #333;
+    margin-bottom: 20px;
+    width: 100%;
+    }
+    .service-list .service-list-left ul li .inside_word {
+    width: 100%;
+   }
+   .service-list .service-list-left ul li .img {
+    overflow: hidden;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+   }
+   .service-list .service-list-left ul li .img img{
+       width: 100%;
+   }
+   .service-list .service-slogan {
+    width: 100%;
+   }
+   .service-list .service-cate-right {
+    width: 100%;
+    position: relative;
+    float: right;
+    /* top: 555px; */
+    /* right: 50px; */
+    border: 1px solid whitesmoke;
+   }
+   .main-service .service-list {
+    width: 100%;
+    background-color: transparent;
+    height: auto;
+   } 
+}
+@media screen and (min-width:1361px) and (max-width:1925px){
+    .main-service .service-list {
+    width: 1200px;
+    background-color: transparent;
+    margin-left: 100px;
+   }
+   .service-list .service-list-left {
+    width: 850px;
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 20%);
+    margin-left: 0px;
+    margin-top: 30px;
+    height: auto;
+    position: relative;
+    margin-bottom: 30px;
+  } 
+}

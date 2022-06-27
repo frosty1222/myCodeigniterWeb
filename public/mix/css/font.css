@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&amp;family=Roboto+Slab&amp;display=swap');
+
+/*Open Sans*/
+
+@font-face {
+	font-family: 'UTM Avo';
+	src: url('../fonts/UTM%20Avo.html');
+	src: local('☺'), url('../fonts/UTM%20Avo-2.html') format('woff'),
+	url('../fonts/UTM%20Avo-3.html') format('truetype'), url('../fonts/UTM%20Avo-4.html') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'UTM AvoBold';
+	src: url('../fonts/UTM%20AvoBold.html');
+	src: local('☺'), url('../fonts/UTM%20AvoBold-2.html') format('woff'),
+	url('../fonts/UTM%20AvoBold-3.html') format('truetype'), url('../fonts/UTM%20AvoBold-4.html') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'UTM AvoItalic';
+	src: url('../fonts/UTM%20AvoItalic.html');
+	src: local('☺'), url('fonts/UTM%20AvoItalic.html') format('woff'),
+	url('../fonts/UTM%20AvoItalic-2.html') format('truetype'), url('../fonts/UTM%20AvoItalic-3.html') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url("../fonts/OpenSans-Bold.html") format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url("../fonts/OpenSans-BoldItalic.html") format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url("../fonts/OpenSans-SemiboldItalic.html") format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url("../fonts/OpenSans-Semibold.html") format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url("../fonts/OpenSans-Italic.html") format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url("../fonts/OpenSans.html") format('woff');
+}
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Condensed Bold'), local('OpenSans-CondensedBold'), url("../fonts/OpenSans-CondensedBold.html") format('woff');
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Condensed Regular'), local('RobotoCondensed-Regular'), url("../fonts/RobotoCondensed-Regular.html")  format('woff');
+}
+
+@font-face {
+ font-family: "VNF-Oswald";
+ src: url("../fonts/VNF-Oswald%20Regular.html") ;
+}
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Condensed Bold'), local('OpenSans-CondensedBold'), url("../fonts/OpenSans-CondensedBold.html")  format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Regular'), local('Roboto-Regular'), url("../fonts/Roboto-Regular.html") format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url("../fonts/Roboto-Medium.html") format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url("../fonts/Roboto-Bold.html") format('woff');
+}
+@font-face {
+    font-family: 'da_streetsregular';
+    src: url('../fonts/da_streets-webfont.woff2') format('woff2'),
+         url('../fonts/da_streets-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

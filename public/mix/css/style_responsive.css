@@ -1,0 +1,898 @@
+@media screen and (max-width: 1199px) {
+	
+	
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+    .nums a {
+    height: 33px;
+    width: 33px;}
+    .right_conten,.pro-view-left {
+    float: left;
+    width: 72%;}
+    .box_top1,.contact-full,.home-sp-nb,.placeSlide_main,.product-full,.product-view-ad,.add-tintuc-full {
+    width: 100%;}
+  #placeSlide_main, .boxcontent{width: 100%;}
+    .timkiem_top {
+    float: left;
+    width: 24%;
+    border: solid #e6e6e6 1px;
+    margin: 29px 0px 29px 55px;}
+    .right_header {
+    float: right;
+    margin-top: 23px;
+    width: 46.5%;}
+	.giohang_top h3 span {      width: 22px;
+    height: 22px;
+    line-height: 11px;}
+	.header {    background: #fff;
+    padding: 0;
+    margin: 5px 0;}
+	.icon_holitne_right {
+    z-index: 99;}
+    * {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+    .right-sp-km {
+    float: right;
+    width: 72%;}
+    .discount-tag {max-width: 47px}
+    .pagewrap,.box_banner_home, .home-sanpham, .page_conten_page>.titile_page, .box_ip_home {width: 100%;}
+    #menu {
+    float: left;
+    width: 70%;}
+    #toggle-menu, #menu a {
+    padding: 10px 23px;
+    text-transform: uppercase;
+    font-size: 14px;}
+
+}
+@media screen and (max-width: 1024px) {
+    .box_menu #menu li ul li a {font-size: 13px; padding: 6px 16px;}
+    .box_menu #menu a {padding: 8px 16px 10px;}
+    #placeSlide_main, .boxcontent {width: 100%;}
+    main>div.inside p {
+    font-size: 13px;}
+    #placeSlide_main #chitiet_news form {margin-bottom: 30px;}
+    .page_conten_page .home-ad-partner {margin: 35px 0 0px;}
+    .home-new-right {
+    width: 45%;}
+    .box_pro_sile .pro_home_id ul h3 {
+    height: 79px;}
+    .sign_col2>p {
+    margin-right: 15%;     font-size: 20px;}
+    #menu {
+    float: left;
+    width: 70%;}
+    .pro_home_id,.placeSlide_main .autoplay {margin: 0;}
+    .timkiem_top {    margin: 29px 0px 29px 20px;
+    width: 26%;}
+    .hotline_header_a {padding-top: 0;}
+	* {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+	.icon_holitne_right {
+    z-index: 99;}
+	.pro_home_id ul h3 {height: 95px}
+	.padding_pagewrap {
+    padding: 0;}
+	.tintuc_home_id {
+    margin: 0; margin-top: 15px;}
+	.center_column {width: 100%}
+	.tin_left {
+    float: left;
+    width: 72%;}
+	.nums a {width: 35px; height: 35px}
+	.crt .rcrt {width: 36%}
+	.left_contact,.right_contact {width: 50%}
+	#back-top a { width: 38px}
+	#back-top {
+    bottom: 30%;}
+	.home-new-left {
+    width: 53%;}
+	.discount-tag:before {right: 46px}
+	.discount-tag {max-width: 46px;}
+	#fixed-social-network > a {width: 44px}
+	.video_home {
+    margin: 0;}
+	.dv-menu-left {
+    margin-left: 0;}
+	#toggle-menu, #menu a {
+    padding: 13px 16px;
+    text-transform: uppercase;
+    font-size: 15px;color: #fff}
+	.placeSlide_main {width: 100%}
+	.left-sp-new {
+    width: 26%;}
+	.a_icon {
+    display: none;}
+	.header .pagewrap {width: 100%;
+    padding: 0 5px;}
+	.pagewrap {width: 100%; padding: 0}
+	.menu_top {
+    right: 10px;}
+	.right_header {    float: right;
+    margin-top: 23px;
+    width: 47%;
+    right: 0;}
+	.left_banner {width: 70%;
+    float: right;}
+	.box_banner_home, .home-sanpham, .page_conten_page>.titile_page, .box_ip_home {width: 100%}
+	.box_top1 {
+    width: 98%;}
+	.company_ft ul.logo_ft img {width: 100%}
+	.pagewrap .company_ft ul {    width: calc(100% / 3 - 20px);}
+	.home-sp-nb .pro_home_id.pro_home_id_home ul {
+    width: calc(100% / 4 - 1%)}
+	.right-sp-km {
+    float: right;
+    width: 72%;}
+	.home-sp-nb,.box_pro_sile {
+    width: 100%; height: auto;}
+	.caroufredsel_wrapper {width: 100% !important}
+	.placeNav_2.next, .placeNav_3.next {
+    right: 0;}
+	.placeNav_2.prev, .placeNav_3.prev {
+    left: 0;
+}
+	.video_home .home-new-right ul li {
+    width: 42%;}
+	.home-new-right .new-right-ad {
+    width: 55%;}
+	.home-ad-partner .pro_home_id ul {width: 153px;}
+	.add_bottom ul {
+    width: calc(100% / 4 - 20px);}
+	.title_right_pro_view {
+    font-size: 16px;}
+	.contact-full,.htkh-full {width: 100%}
+	.icon_holitne_right {
+    top: 17%;}
+	.tintuc_home_id ul {width: 223px; margin: 0}
+	.add-tintuc-full,.tintuc-view-ad-full {
+    width: 100%;}
+	.pro-view-left {
+    float: left;
+    width: 72%;}
+	.hinhanh_view {
+    float: left;
+    width: 303px;}
+	.hinhanh_view .column {
+    width: 14%;}
+	.product-full,.product-view-ad {width: 100%;padding-left: 10px;padding-right: 10px}
+	.pro_home_id.pro_home_id_2 ul {width: calc(100% / 3 - 1%)}
+	.right_conten {
+    float: left;
+    width: 72%}
+	.icon_pro_view ul li {
+    margin: 0 5px;}
+	.contact-ad>div ul {width: 100%}
+	.homebanner div#sync1 img {
+    height: auto;}
+    .plc1_1 img {
+    transition: 0.5s;
+    width: 58.5%;}
+	.dv-ul-menu {
+    height: 448px;
+    overflow: scroll;
+}
+	.page-album .pro_home_id ul li {
+        height: auto;
+    }
+    ul.a_icon {
+        visibility: visible;
+        opacity: 1;
+        left: 20%;
+        top: 40%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    ul.a_icon {
+        left: 10%;
+    }
+    .contact-ad>div {
+        padding:10px;
+    }
+    .home-sanpham,
+    .home-sp-nb,
+    .box_pro_sile,
+    .box_ip_home,
+    .add-tintuc-full, .tintuc-view-ad-full {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .box_banner_home {
+        margin: 0 -10px;
+    }
+    .bcrt>div {
+    margin: 75px 0 0 20px;}
+    .hinhanh_view {
+    float: left;
+    width: 100%;}
+    .fs-dtinfo {
+    float: left;
+    margin: 0;
+    width: 100%;}
+    .box_menu #menu li ul li a {
+    font-size: 15px;}
+    .plc1_1 img {
+    width: 100%;}
+    .right_fix {
+    top: 16%;}
+    #menu {
+    float: left;
+    width: 100%;}
+    .giohang_top .fa-cart-plus:before {
+    color: #ffffff;}
+    .giohang_top h3 {
+    font-size: 14px;
+    color: #ffffff;}
+    .r-h-cart {
+        position: absolute;
+    float: right;
+    text-align: right;
+    padding-top: 0;
+    bottom: -50px;
+    right: 0;
+    color: #FFF;
+    z-index: 99;
+    background: #339933;
+    padding: 11px;
+    height: 50px;}
+    .right_header {
+    width: 36%;}
+    .hotline_header_a{display: none;}
+    .header .pagewrap {
+    width: 100%;
+    padding: 0;}
+    main>div.inside p {
+    font-size: 15px;
+}
+    .fa-account:before {
+    border: 1px solid #ffffff;
+    color: #ffffff;}
+    .r-h-cart>a {
+    font-size: 14px;
+    color: #ffffff;}
+    .timkiem_top {width: 30%;}
+	.pro_home_id.pro_home_id_2 ul {
+    width: calc(100% / 2 - 1%);}
+	.giohang_top h3 span {     height: 22px;
+    width: 22px;
+    background: #f58220;
+    line-height: 10px;}
+	.banner_left_tt ul h3 {position: relative}
+	.new_right ul li,.new_right ul h3,.pro_right li,.pro_right ul {width: 100%}
+	#menu .sub-menu a {
+    font-size: 15px;
+    text-transform: capitalize;}
+	#back-top {
+    bottom: 0;}
+	.new_letter_bottom h3 a {
+    font-size: 12px;
+    padding: 5px 15px;}
+	.bottom_id_copyright .pagewrap {width: 98%}
+	.add_bottom .pagewrap {    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;}
+	.add_bottom ul {
+    width: calc(100% / 3 - 20px);}
+	div#sync2 img {height: auto}
+	.left_banner {width: 100%; margin-top: 0;}
+	.home-sp-nb .link-view-all a {display: none}
+	.right-sp-km>ul h3,.titile_page ul h3,.home-sp-nb>div>ul h3 {font-size: 18px}
+	.home-sp-nb .pro_home_id.pro_home_id_home ul {
+    width: calc(100% / 3 - 1%);}
+	.right-sp-km {
+    width: 66%;}
+	.left-sp-new {
+    width: 32%;
+}
+	.pro_home_id ul h3 {
+    height: 68px;
+    overflow: hidden;}
+	.pro_home_id.pro_home_id_home ul {
+    width: calc(100% / 2 - 1%);}
+	#fixed-social-network > a {
+    width: 40px;}
+	.pagewrap #menu {
+    background-color: #393;
+    position: relative;
+    z-index: 9; box-shadow: 0px 0px 5px 0px rgba(255,255,255,1);
+}
+#menu a:hover {
+    background: none;
+    color: #fff;
+}
+#menu .sub-menu {
+    border-right: none;
+    border-left: none;
+}
+#menu li label.drop-icon {
+    line-height: 18px;
+}
+	#menu .drop-icon {
+    line-height: 10px;
+}
+	.dv-menu-left {display: none}
+	#toggle-menu{
+    font-size: 20px;color: #fff;}
+	.menu_top {
+    right: 23px;
+}
+.sign_col2 #text {width: 100%}
+.sign_col2>p {
+margin-right: 13%;}
+#placeSlide_main, .boxcontent {width: 100%}
+.product-full .pro_home_id.pro_home_id_search ul {
+    width: calc(100% / 3 - 1%);
+}
+	
+}
+
+
+@media screen and (max-width: 800px) {
+    ul.a_icon {
+        left: 30%;
+    }
+    
+    .right_fix {
+    top: 3%;}
+    .pro_home_id ul h4 span {font-size: 12px}
+    .pro_home_id ul h4 {font-size: 16px}
+    .input_search {font-size: 12px; height: 40px;}
+    .hotline_header ul li {
+    font-size: 33px;}
+    .timkiem_top {
+    width: 28%;}
+    .hotline_header ul h3 span {font-size: 12px}
+    .hotline_header ul h3 {font-size: 16px}
+    .contact-ad>div ul {
+    padding-left: 10px;}
+    .right_header {
+        width: 35%;
+    float: right;
+}
+    #menu li label.drop-icon {
+    line-height: 16px;}
+    .product-view-ad .pro_home_id ul h3 {
+    height: 80px;}
+    .hinhanh_view {
+    float: left;
+    width: 46%;
+    margin-right: 3%;}
+    .plc1_1 img {
+    width: auto;}
+    .input_search {
+    padding: 0 3px;     width: 78%;}
+	.title_news p {font-size: 15px}
+	.hinhanh_view .column {
+    width: 18%;
+}
+	.product-full .pro_home_id ul h3 {height: 68px}
+	.one_new_home_right li {
+    width: 40%;}
+	.menu_top ul li a {font-size: 14px}
+	.menu_top {
+    right: 0;}
+	.pro_home_id.pro_home_id_2 ul {
+    width: calc(100% / 3 - 1%);
+}
+	.new_right ul li,.pro_right li {
+    width: 45%;}
+	.new_right ul h3,.pro_right ul{
+    width: 52%;
+}
+	.video_home .home-new-right ul {
+    width: 98%;}
+	.a-mobi-sp {height: 150px;
+    display: flex;
+    vertical-align: middle;}
+    .pro_home_id.pro_home_id_home ul {
+    width: calc(100% / 3 - 1%);}
+	.plc1_1 img {
+    margin: auto;
+}
+		.home-sp-nb .link-view-all,.dv-menu-left {display: none}
+	.company_ft ul.logo_ft img {
+    width: auto;
+}
+	#menu a {font-size: 16px}
+	.motion_proview ul h3{font-size: 18px}
+	.page_conten_page .contact-ad>div ul a {
+    font-size: 14px;}
+	.motion_proview div p {font-size: 13px;}
+	.add_to_cart>h3 {
+    font-size: 13px;
+    margin: 0 10px;
+}
+.bcrt>div {
+    margin: 75px 10px;}
+	.crt .rcrt .r,.toprt {
+    padding: 0px;}
+.add_to_cart>h4 {font-size: 13px}
+	.fs-dtinfo {
+    width: 51%;}
+	.pro-view-left {
+    width: 100%;}
+	.right_conten,.left_conten {
+    width: 100%;}
+	.tintuc-view-ad-full .tintuc_home_id ul {width: 210px}
+	.tin_left {
+    width: 100%;}
+	.tab_pro_view ul li a {font-size: 14px}
+	.htkh-full .htkh-left,.tin_right,.bh-right-ad {
+    width: 100%;}
+	.sign_col2 {
+    padding: 30px 20px;}
+	.center_column {width: 100%}
+	.col1-top {
+    padding: 50px 10px;}
+	.col1_subheading {
+    font-size: 24px;}
+	.sign_col2 h3 {line-height: 25px}
+	.cart_description a {
+    font-size: 14px;
+}
+	.left_contact,.right_contact {
+    width: 100%;}
+	.bottom_id_copyright .pagewrap-1 {
+    width: 96%;
+    margin-left: 2%;}
+	.bottom_id_copyright .pagewrap-2 {
+    width: 44%;
+    margin-top: 20px;}
+	.bottom_id_copyright .pagewrap-3 {
+    width: 48%;
+    margin-right: 2%;
+    margin-top: 7px;
+}
+.add_bottom ul {
+    width: calc(100% / 2 - 20px);
+}
+	.company_ft ul {width: 47%}
+	.home-ad-partner .pro_home_id ul {width: 148px}
+	.box_pro_sile.home-ad-partner .pro_home_id ul li img {width: 100%}
+	.home-new-left {width: 100%}
+	.video_home .home-new-left ul {
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 0; box-shadow: none;
+}
+	.home-new-right {
+    width: 98%;}
+	.right-sp-km {
+    float: right;
+    width: 100%;
+    margin-top: 15px;}
+	.a_icon {
+    margin: 0 7px;}
+	.ad-mayanh-repon .pro_home_id ul {
+    float: left;
+}
+.box_pro_sile .pro_home_id ul h3 {
+height: 80px; font-size: 14px;}
+.home-sp-nb .pro_home_id ul h3 {
+    overflow: hidden;
+    font-size: 14px;
+}
+	.home-sp-nb .pro_home_id ul li img {
+    width: auto;padding-top: 0;}
+	.home-sp-nb .link-view-all {display: none}
+	.homebanner div#sync1 img {
+    margin: 0px;
+    height: auto;}
+	.left-sp-new {
+    float: left;
+    width: 100%;}
+	.left-sp-new .sd_menu_left {
+    border: 1px solid #f1f1f1;
+    padding: 0;
+}
+.sd_menu_left .plc1_1 {
+       text-align: center;
+    margin-top: 30px;
+    width: calc(100% / 3 - 0px);
+    float: left;
+    margin-left: 0;
+}
+.menu_top ul li {
+    list-style: none;
+padding-left: 8px;}
+	#menu a:hover {
+    background: none;
+    color: #fff;}
+	.icon_holitne_right img{
+    width: 80%;}
+	.icon_holitne_right {
+    top: 50%;}
+	#menu .drop-icon {
+    line-height: 9px;}
+	.box_menu .pagewrap {height: auto}
+	#menu .sub-menu a {text-transform: capitalize; padding-left: 35px;}
+	#menu .sub-menu {margin: 0}
+	.pagewrap ul.menu ul {
+    background: none;
+    border: none;
+    left: 0;
+    position: relative;
+    right: inherit;
+    opacity: 1;
+    visibility: inherit;
+    width: 100%; 
+    padding-top: 0;
+}
+	.menu > li > ul > li {
+    margin: 0 10px;
+    display: block;
+    padding: 7px 0 10px 30px;
+    margin-top: 0px;
+    clear: both;
+    width: 100%;
+    border-bottom: dotted 1px rgba(255, 255, 255, 0.59) !important;
+    margin: 0;
+}
+	.box_menu .pagewrap,.box_banner_home {width: 100%}
+	.dv-menu-left{display: none}
+    nav {
+        height: auto;
+    }
+    nav ul {
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+    nav li {
+        width: 100%;
+        float: left;
+        position: relative;
+    }
+	  nav a#pull {
+            display: block;
+    background-color: #339933;
+    width: 100%;
+    position: relative;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-top: 9px;
+    }
+}
+@media screen and (max-width: 640px){
+    ul.a_icon {
+        left: 20%;
+    }
+    .modal-content .hinhanh_view,
+    .modal-content .fs-dtinfo {
+        width: 100%;
+    }
+    .plc1_1 h3 {    overflow: hidden; height: 50px}
+    .one_new_home ul h3 a, .tti_more ul h3 a {
+    font-size: 20px;}
+    .pro_home_id.pro_home_id_2 ul {
+    width: calc(100% / 2 - 1%);}
+    .timkiem_top {
+    width: 58%;
+    margin: 20px 14px;}
+    .right_header {
+    float: right;
+    margin-top: 0;}
+    .right_header .hotline_header {display: none;}
+	.fs-dtinfo {width: 100%;
+    margin-left: 0;}
+    .hinhanh_view {
+    float: left;
+    width: 100%;}
+    .add_to_cart {
+    margin: 5px;}
+	.pagewrap .company_ft ul {
+    width: calc(100% / 2 - 20px);}
+	.pagewrap .company_ft ul.logo_ft {width: 97%}
+	.pro_home_id ul h4 {
+    font-size: 16px;}
+	.header .pagewrap {
+    width: 100%;}
+	.header {
+    height: auto; margin: 10px 0; min-height: auto;}
+	.logo {    padding-top: 0;
+    width: 30%;}
+	.logo img {width: 100%; height: auto}
+	.menu_top {display: none}
+	.right_header {top: 0;
+    width: 66%;
+    float: right;
+    right: 0;}
+	.right_header .hotline_header {
+    width: 77%; padding: 0;     margin-top: 4%;}
+	.detail-sp p {font-size: 14px}
+    .pro_home_id.pro_home_id_home ul {
+    width: calc(100% / 2 - 1%);}
+    .home-sp-nb .pro_home_id.pro_home_id_home ul {
+    width: calc(100% / 2 - 1%);}
+    .sd_menu_left .plc1_1 {
+    width: calc(100% / 2 - 0px);}
+    .r-h-cart {
+    bottom: -60px;}
+    .right_fix {
+    top: 0;}
+    .product-full .pro_home_id.pro_home_id_search ul {
+    width: calc(100% / 2 - 1%);}
+}
+@media only screen and (max-width : 480px) {
+    ul.a_icon {
+        left: 0;
+    }
+    .icon_pro_view ul li span {
+    font-size: 12px;}
+    .right_fix {
+    top: 35%;}
+    .fa-account:before {
+    font-size: 14px;}
+    .giohang_top .fa-cart-plus:before {
+    font-size: 20px;
+    top: 6px;}
+    .giohang_top h3,.r-h-cart>a {
+    font-size: 12px;}
+    .timkiem_top {
+    width: 92%;
+    margin: 0 14px 10px;}
+	#fixed-social-network {display: none}
+	.add_bottom ul h3 {font-size: 18px}
+	.detail-sp p {font-size: 14px}
+	main>div.inside p {
+    font-size: 13px;}
+	.top_td {padding: 0 10px}
+	.product-full .pro_home_id.pro_home_id_search ul {
+    width: calc(100% / 1 - 0px);
+}
+	div.forder table.ftable tr td {
+    font-size: 8px;}
+	.pagewrap .company_ft ul {
+    width: calc(100% / 1 - 20px);}
+	.box_pro_sile .pro_home_id ul h3,.home-sp-nb .pro_home_id ul h3 {height: auto}
+	.logo {padding-top: 0;
+    width: 100%;
+    text-align: center;}
+    .logo img {width: auto;}
+	.right_header .hotline_header {display: none}
+	.name_coment ul {
+    width: 80%;}
+	.crt .lcrt {
+    width: 97%;
+    float: left;
+    border-right: none;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 5px 10px 5px 5px;
+    height: 44%;
+    padding-top: 0;
+    border-bottom: solid 1px #eee;}
+	.crt .rcrt {
+    font-size: 15px;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    width: 100%;
+    float: left;
+    border-right: none;
+    border-bottom: solid 1px #eee;}
+	.bcrt {
+    float: left;
+    margin: auto;
+    text-align: center;
+    width: 100%;}
+	.bcrt>div {
+    margin: 23px 10px;
+}
+	.fs-dtinfo {
+    width: 100%;
+    margin: 0;
+    margin-top: 20px;}
+	.add_to_cart {
+    margin: 0;}
+	.hinhanh_view {
+    float: left;
+    width: 100%;}
+	.pro_home_id.pro_home_id_2 ul {
+    width: 100%;
+    height: auto;
+    margin-left: 1px;}
+	.titile_page_id ul h3 {
+    font-size: 20px;
+    margin-bottom: 13px;
+}
+	.tintuc_home_id ul h3 a {font-size: 17px}
+	.cart-qty .cart-qty-input, .cart-qty select {width: 10px}
+	.tintuc-view-ad-full .tintuc_home_id ul {
+    width: 177px;}
+	.title_news h2 {
+    font-size: 18px;}
+	.title_news p {
+    font-size: 15px;}
+	.padding_pagewrap {
+    padding: 20px 10px;}
+	.new_id_bs ul h3 span,.new_id_bs ul p {
+    font-size: 15px;}
+	.new_id_bs ul h3 a {
+    font-size: 18px;}
+	.new_id_bs li,.new_id_bs ul {width: 100%}
+	.one_new_home_right {
+    float: right;
+    width: 100%;
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: 0;
+    border-left: none;
+    margin-top: 5%;}
+	.one_new_home ul p {
+    font-size: 15px;}
+	.one_new_home ul h3 a, .tti_more ul h3 a {font-size: 18px}
+	.one_new_home {
+    float: left;
+    width: 100%;}
+	body {font-size: 15px}
+	.link_page {
+    padding-bottom: 0;}
+	#showText h2 {
+    font-size: 18px;
+    margin-bottom: 0;}
+	.contact-ad>div {
+    position: relative;
+    background: rgba(43, 43, 43, 0.7);
+    width: 100%;
+    bottom: 0;
+    margin-bottom: 0px;
+    padding: 10px 0;}
+	.page_conten_page .contact-ad>div ul li {
+    padding-left: 10px;}
+	.left_contact, .right_contact {
+    width: 100%;}
+	.add_bottom ul {font-size:15px}
+    .box-voucher-input {
+    text-align: left;}
+    .box-voucher-input label {width: 100%;
+    clear: both;
+    display: block;
+    margin-bottom: 4px;}
+    .box-voucher-input .txt-voucher {
+    display: block;
+    float: left;
+}
+	.page_conten_page .cart_navigation .btn {
+        font-size: 13px;
+    display: block;
+    width: 60%;
+    text-align: center;
+    padding: 5px 0;
+    margin: 7px auto;
+}
+.table-cart-footer td {
+    text-align: right;
+    font-size: 14px;}
+	#cartTamTinh, #cartTongTien {
+    color: #f58220;
+    font-size: 14px;}
+.cart_navigation {
+    width: 100%;
+}
+	.cart-qty {
+    width: auto; display: inherit;}
+	.cart_description a {
+    font-size: 10px;}
+	.cart_summary th,.cart_summary .price div, #cartRowPrice_969208 {font-size: 10px}
+	.center_column {
+    display: inherit;}
+	.sign_col1{
+    width: 100%;}
+	.sign_col2 {width: 100%}
+	#back-top {
+    bottom: 0px;
+    right: 0px;}
+	.bottom_id_copyright .pagewrap-3 {
+    width: 96%;
+    margin-right: 2%;
+    margin-top: 10px;}
+	.bottom_id_copyright .pagewrap-2 {
+    width: 96%;
+    margin: 0 2%;}
+	.add_bottom ul {
+    width: 95%;
+    height: auto;}
+	.company_ft ul {
+    width: 95%;
+    margin-bottom: 6%;}
+	.home-new-right {
+    width: 96%;}
+	.home-sp-nb .pro_home_id.pro_home_id_home ul {
+           width: 100%;
+    margin-left: 0%;
+    min-height: auto;
+    padding-bottom: 15px;
+    margin-bottom: 3%;
+    height: auto;}
+	.banner_ad_home>a {
+    float: left;
+    width: 100%;
+    margin: 10px 0;}
+	.pro_home_id ul h3 {     height: auto;
+    overflow: inherit;}
+	.pro_home_id.pro_home_id_home ul {
+              width: calc(100% / 1 - 0px);}
+	.sd_menu_left .plc1_1 {
+    text-align: center;
+    margin-top: 46px;
+    width: 96%;
+    float: left;
+    margin-left: 2% !important;}
+	.link-view-all a {
+    font-size: 13px;}
+	.titile_page ul h3,.right-sp-km>ul h3,.home-sp-nb>div>ul h3 {font-size: 16px}
+	.camket_home>a {
+    width: 90%;
+    float: left;
+    margin: 2.5% 5% !important;}
+	.right_header {width: 40%}
+	.hotline_header {
+    float: left;
+    padding-right: 0;
+    padding-top: 18px;
+    width: 77%;}
+	.hotline_header>a {
+    padding: 0 5px;
+    width: 45%;
+    float: left;
+}
+	.menu_top ul li {
+    list-style: none;
+    padding-left: 0;
+    margin: 5px 0;
+    text-align: center;
+    width: 100%;     border-left: none !important;
+}
+	 nav .menu > li {
+    display: inherit;
+    padding: 0;}
+    nav {
+        border-bottom: 0;
+    }
+    nav ul {
+        display: none;
+        height: auto;
+		    background: #339933;    top: 10px;
+    }
+    nav a#pull {
+            display: block;
+    background-color: #339933;
+    width: 100%;
+    position: relative;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-top: 9px;
+    }
+    nav a#pull:after {
+        content:"";
+        background: url('nav-icon.html') no-repeat;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        position: absolute;
+        rightright: 15px;
+        top: 10px;
+    }
+    .page-album .pro_home_id.pro_home_id_2 ul {
+        width: calc(50% - 20px);
+    }
+}
+
+@media only screen and (max-width : 320px) {
+    .cart_summary th, .cart_summary .price div, #cartRowPrice_969208 {
+    font-size: 5px;}
+    .home-new-right .new-right-ad {
+    width: 99%;
+    margin: 10px 0 0;}
+    .video_home .home-new-right ul li {
+    width: 98%;}
+    nav li {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+}

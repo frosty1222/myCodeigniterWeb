@@ -1,0 +1,355 @@
+.main-contact{
+    width:100%;
+    margin:0px;
+    padding:0px;
+    justify-content:center;
+}
+.main-contact .contact-banner img{
+    width:100%;
+    position:relative;
+}
+.main-contact .contact-banner .contact-word {
+    width: 100%;
+    height: 50px;
+    background: rgba(0,0,0,0.7);
+    margin-top: -60px;
+    opacity: 1;
+    position: relative;
+}
+.main-contact .contact-banner .contact-word ul li{
+    display: inline-block;
+    padding-left: 10px;
+    line-height:3;
+    color:#fff;
+}
+.main-contact .contact-banner .contact-word ul {
+    margin-left:70px;
+}
+.main-contact .contact-banner .contact-word ul .back{
+    color:yellow;
+}
+.main-contact .contact-banner .contact-word ul .back::after{
+    content:'';
+}
+.main-contact .contact-banner .contact-word ul li::after{
+    content:"/";
+    position:absolute;
+    padding-left: 5px;
+}
+.contact-main{
+    width:1200px;
+    height:auto;
+    margin-bottom:20px;
+}
+.contact-main .contact-slogan{
+    width:1180px;
+    height:45px;
+    line-height:2.5;
+    background:green;
+    margin-top:30px;
+}
+.contact-main .contact-slogan span{
+    padding-left: 20px;
+    font-size: 17px;
+    text-transform:uppercase;
+    color:#fff;
+}
+.contact-main .contact-slogan::before{
+    content:"";
+    width:7px;
+    height:45px;
+    background:orange;
+    position:absolute;
+}
+.contact{
+    width:1200px;
+    display:flex;
+}
+.contact-left{
+    width:600px;
+    box-shadow:0px 1px 1px rgb(0 0 0 / 20%);
+    overflow:hidden;
+    margin:10px;
+}
+.contact-right{
+    width:600px;
+    box-shadow:0px 1px 1px rgb(0 0 0 / 20%);
+    overflow:hidden;
+    margin:10px;
+}
+.contact-left legend{
+    margin-top:20px;
+    font-size:20px;
+    text-transform:uppercase;
+    font-weight:100;
+    padding-left:20px;
+    color:orange;
+}
+.contact-left ul li{
+    list-style:none;
+    padding-left:20px;
+
+}
+.contact-left .iframe{
+    margin:10px;
+    width:600px;
+    position:relative;
+}
+.contact-right legend{
+    font-size:25px;
+    margin-top:20px;
+    margin-left:20px;
+    font-weight:100;
+}
+.contact-right .form-group input{
+   height:45px;
+   width:540px;
+   margin:5px 10px;
+   border:1px solid #eee;
+   padding-left:40px;
+   font-size:15px;
+   text-transform:capitalize;
+}
+.contact-right .form-group textarea {
+    padding: 60px 214px;
+    margin: 5px 10px;
+    border:1px solid #eee;
+}
+.contact-right .form-group img{
+    position:absolute;
+    margin-left:20px;
+    margin-top:15px;
+}
+.contact-right .action .botton{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-bottom:15px;
+    background-color:orange;
+    height:20px;
+    width:70px;
+    float:right;
+    margin-top:20px;
+    color:white;
+    margin-right:10px;
+    margin-left:10px;
+    text-align:center;
+}
+.contact-right .action .botton:hover{
+    background:green;
+}
+.contact-right .action .botton2:hover{
+    background:green;
+}
+.contact-right .action .botton2 {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 35px;
+    background-color: orange;
+    height: 20px;
+    width: 70px;
+    float: right;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    border: none;
+    font-size: 20px;
+}
+/* reponsive view page */
+@media only screen and (max-width:600px){
+    .main-contact .contact-banner img {
+    width: 100%;
+    position: relative;
+    height: 150px;
+  }
+  .contact {
+    width: 100%;
+    display: block;
+   }
+   .contact-main {
+    width: 100%;
+  }  
+  .contact-left {
+    width: 96%;
+   }
+   .contact-left .iframe {
+    width: 100%;
+   }
+   .contact-right {
+    width: 96%;
+   }
+   .contact-main .contact-slogan {
+    width:96%;
+   }
+   .contact-right .form-group input {
+    width:100%;
+   }
+   .contact-right .form-group textarea {
+    padding: 60px 190px;
+    margin: 5px 10px;
+    border: 1px solid #eee;
+   }
+   .contact-right .action {
+    width: 50%;
+   }
+}
+@media only screen and (min-width: 600px) and (max-width:775px){
+    .main-contact .contact-banner img {
+    width: 100%;
+    position: relative;
+    height: 200px;
+  }
+  .contact {
+    width: 100%;
+    display: block;
+   }
+   .contact-main {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    box-sizing: border-box;
+   }
+   .contact-right .form-group textarea {
+    padding: 60px 255px;
+    margin: 5px 10px;
+    border: 1px solid #eee;
+   }
+  .contact-left {
+    width: 96%;
+   }
+   .contact-left .iframe {
+    width: 100%;
+    text-align: center;
+   }
+   .contact-right {
+    width: 96%;
+   }
+   .contact-main .contact-slogan {
+    width:96%;
+   }
+   .contact-right .action .botton {
+    margin-right: 300px;
+   }
+   .contact-right .form-group input {
+    width: 90%;
+   }
+}
+@media screen and (min-width: 778px) and (max-width:1025px){
+   .main-contact .contact-banner img {
+    width: 100%;
+    position: relative;
+    height: 200px;
+  }
+  .contact {
+    width: 100%;
+    display:flex;
+   }
+   .contact-main {
+    width: 100%;
+  }  
+  .contact-left {
+    width: 100%;
+   }
+   .contact-left .iframe {
+    width: 100%;
+    text-align: center;
+   }
+   .contact-right {
+    width: 100%;
+   }
+   .contact-main .contact-slogan {
+    width: 96%;
+   }
+   .contact-right .action .botton {
+    margin-right: 300px;
+   }
+   .contact-right .form-group input {
+    width: 90%;
+   }
+   .contact-right .form-group textarea {
+    padding: 60px 295px;
+   }
+}
+@media screen and (max-width:600px) and (orientation:landscape){
+   .main-contact .contact-banner img {
+    width: 100%;
+    position: relative;
+    height: 150px;
+  }
+  .contact {
+    width: 100%;
+    display: block;
+   }
+   .contact-main {
+    width: 100%;
+  }  
+  .contact-left {
+    width: 96%;
+   }
+   .contact-left .iframe {
+    width: 100%;
+    text-align: center;
+   }
+   .contact-right {
+    width: 96%;
+   }
+   .contact-main .contact-slogan {
+    width: 96%;
+   }
+   .contact-main .contact-slogan {
+    width: 100%;
+   }
+   .contact-right .action .botton {
+    margin-right: 300px;
+   }
+   .contact-right .form-group input {
+    width: 100%;
+   }
+}
+@media screen and (min-width:800px) and (max-width:850px){
+    .main-contact .contact-banner img {
+    width: 100%;
+    position: relative;
+    height: 150px;
+  }
+  .contact {
+    width: 100%;
+    display: block;
+   }
+   .contact-main {
+    width: 100%;
+  }  
+  .contact-left {
+    width: 96%;
+   }
+   .contact-left .iframe {
+    width: 100%;
+    text-align: center;
+   }
+   .contact-right {
+    width:96%;
+   }
+   .contact-main .contact-slogan {
+    width: 96%;
+   }
+   .contact-right .action .botton {
+    margin-right: 300px;
+   }
+   .contact-right .form-group input {
+    width: 90%;
+   }
+   .contact-right .form-group textarea {
+    padding: 60px 295px;
+   }
+}
+@media screen and (min-width:1361px) and (max-width:1925px){
+    .contact-main {
+    width: 1200px;
+    height: auto;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    }
+}

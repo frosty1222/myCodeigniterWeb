@@ -1,0 +1,490 @@
+.main-regis{
+    width: 100%;
+    height:auto;
+    margin:0px;
+    padding:0px;
+}
+.main-regis img{
+    width: 100%;
+    position:relative;
+}
+.main-regis .regis-breadcrumb{
+   width:100%;
+   height:50px;
+   background: rgba(0,0,0,0.7);
+   position: relative;
+   margin-top:-60px;
+}
+.main-regis .regis-banner{
+    width:100%;
+    margin:0px;
+    padding:0px;
+    position: relative;
+}
+.main-regis .regis-breadcrumb ul li{
+    display: inline;
+    margin-left: 10px;
+    color: #fff;
+    line-height:3;
+}
+.main-regis .regis-breadcrumb ul .special{
+    color:yellow;
+}
+.main-regis .regis-breadcrumb ul .special::after{
+    content: " ";
+}
+.main-regis .regis-breadcrumb ul{
+    margin-left:60px;
+}
+.main-regis .regis-breadcrumb ul li::after{
+    content: '/';
+    margin-left:5px;
+    position:absolute;
+}
+.main-regis .register legend {
+    width: 1180px;
+    height: 50px;
+    background-color: green;
+    font-size: 25px;
+    font-weight: 500;
+    padding-left: 20px;
+    line-height: 2;
+    margin-top: 50px;
+    color:#fff;
+}
+.main-regis .register legend::before {
+    content: '';
+    background-color: orange;
+    width: 7px;
+    height: 50px;
+    position: absolute;
+    margin-left: -20px;
+}
+.main-regis .register{
+    width:1200px;
+    height: auto;
+}
+.main-regis .register .regis-inside{
+    width:1200px;
+    display: flex;
+    height:auto;
+    margin:20px;
+}
+.register .regis-inside .regis-left{
+    width:450px;
+    height:auto;
+    background-color:green;
+    margin-top:20px;
+    margin-left:20px;
+    margin-bottom:40px;
+    margin-right:-10px;
+}
+ .regis-inside .regis-left ul .img-form img{
+    width:200px;
+ }
+ .regis-inside .regis-left ul .img-form{
+     width: 100%;
+     text-align:center;
+     margin-top:20px;
+ }
+.regis-inside .regis-left ul .regis-text-heading{
+    width:100%;
+    text-align:center;
+}
+.regis-inside .regis-left ul .regis-text-heading span{
+    font-size:25px;
+}
+.regis-inside .regis-left ul  .regis-text{
+    text-align:center;
+    width:400px;
+    list-style:none;
+}
+.regis-inside .regis-left ul  .regis-text span{
+    color:#fff;
+    font-size:15px;
+    margin:10px;
+}
+.regis-inside .regis-left ul li{
+    list-style:none;
+}
+.register .regis-inside .regis-right{
+    width:700px;
+    height:auto;
+    background-color:#efefef;
+    margin-top:20px;
+    margin-left:-10px;
+    margin-bottom:40px;
+    margin-right:20px;
+}
+.regis-inside .regis-right legend{
+    background-color:transparent;
+    color:black;
+    font-weight:500;
+    margin-top:0px;
+    margin-left:20px;
+    width:100%;
+}
+.regis-inside .regis-right .form-group{
+    margin-left:40px;
+}
+.regis-inside .regis-right .form-group input{
+    width:600px;
+    height:40px;
+    margin: 10px;
+    font-size: 17px;
+    font-weight:500;
+    padding-left: 10px;
+    border: none;
+    box-shadow:0.1px 0.1px 1px 0.1px darkgrey;
+}
+.regis-inside .regis-right .form-check input{
+    margin-left:50px;
+    background-color:grey;
+    opacity:0.3;
+    border: none;
+    box-shadow:0.1px 0.1px 1px 0.1px darkgrey;
+}
+.regis-inside .regis-right legend::before{
+    content:'';
+    background-color:transparent;
+}
+.regis-inside .regis-right .form-group button{
+    width:550px;
+    height:50px;
+    background-color:orange;
+    margin-left:20px;
+    border:none;
+    margin-top:20px;
+}
+.regis-inside .regis-right .form-group span{
+   margin-left:20px; 
+   color:#333;
+   margin-top:20px;
+   padding-top:20px;
+}
+.regis-inside .regis-right .form-group span a{
+    color:green;
+    font-size:17px;
+    font-weight:500;
+}
+@media screen and (max-width:600px){
+    .main-regis img {
+    width: 100%;
+    position: relative;
+    height: 150px;
+    }
+    .main-regis .register {
+    width: 100%;
+    height: auto;
+   }
+   .main-regis .register legend {
+    width: 90%;
+   }
+   .main-regis .register .regis-inside {
+    width: 100%;
+    display: block;
+    height: auto;
+   }
+   .register .regis-inside .regis-left {
+    width: 97%;
+    height: auto;
+    background-color: green;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: -15px;
+   } 
+   .regis-inside .regis-left ul  .regis-text {
+    text-align: center;
+    width: 100%;
+   }
+    .regis-inside .regis-right .form-group input {
+    width:94%;
+    /* margin-left:-15px; */
+   }
+   .regis-inside .regis-right .form-group {
+    margin-left:0px;
+   }
+   .register .regis-inside .regis-right {
+    width: 100%;
+    height: auto;
+    background-color: #efefef;
+    margin-top: 20px;
+    margin-left: -10px;
+    margin-bottom: 40px;
+   }
+   .form-check{
+       font-size:10px;
+       width:96%;
+   }
+   .regis-inside .regis-right .form-group button {
+    width: 50%;
+    margin-left: 60px;
+   }
+   .regis-banner{
+       width:100% !important;
+       height:200px;
+   }
+   .main-container {
+       width: 100% !important;
+       height:auto;
+   }
+}
+@media screen and (min-width: 600px) and (max-width:775px){
+   .main-regis img {
+    width: 100%;
+    position: relative;
+    height: 200px;
+    }
+    .main-regis .register {
+    width: 100% !important;
+    height: auto;
+   }
+   .main-regis .register legend {
+    width: 90%;
+    margin-top:100px;
+   }
+   .main-regis .register .regis-inside {
+    width: 100%;
+    display: block;
+    height: auto;
+   }
+   .register .regis-inside .regis-left {
+    width: 97% !important;
+    height: auto;
+    background-color: green;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: -15px;
+   } 
+   .regis-inside .regis-left ul  .regis-text {
+    text-align: center;
+    }
+    .regis-inside .regis-right .form-group input {
+    width:94%;
+    /* margin-left:-15px; */
+   }
+   .regis-inside .regis-right .form-group {
+    margin-left:0px;
+   }
+   .register .regis-inside .regis-right {
+    width: 100%;
+    height: auto;
+    background-color: #efefef;
+    margin-top: 20px;
+    margin-left: -10px;
+    margin-bottom: 40px;
+   }
+   .regis-inside .regis-right .form-group button {
+    width: 50%;
+    margin-left: 60px;
+   }
+   .main-regis {
+    width: 100% !important;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+   }
+   .regis-banner{
+       width:100%;
+       height:150px;
+   }
+   .form-check{
+       font-size:10px;
+       width:96%;
+   }
+}
+@media screen and (min-width: 778px) and (max-width:1025px){
+    .main-regis img {
+    width: 100%;
+    position: relative;
+    height: 200px;
+    }
+    .main-regis .register {
+    width: 100% !important;
+    height: auto;
+   }
+   .main-regis .register legend {
+    width: 90%;
+    margin-top:100px;
+   }
+   .main-regis .register .regis-inside {
+    width: 100%;
+    display:flex;
+    height: auto;
+   }
+   .register .regis-inside .regis-left {
+    width:50% !important;
+    height: auto;
+    background-color: green;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+    margin-left: -15px;
+   } 
+   .regis-inside .regis-left ul  .regis-text {
+    text-align: center;
+    }
+    .regis-inside .regis-right .form-group input {
+    width:94%;
+    /* margin-left:-15px; */
+   }
+   .regis-inside .regis-right .form-group {
+    margin-left:0px;
+   }
+  .register .regis-inside .regis-right {
+    width: 50%;
+    height: auto;
+    background-color: #efefef;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+   }
+   .form-check{
+       font-size:10px;
+       width:96%;
+   }
+   .regis-inside .regis-right .form-group button {
+    width: 50%;
+    margin-left: 60px;
+   }
+   .main-regis {
+    width: 100% !important;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+   }
+   .regis-banner{
+       width:100%;
+       height:150px;
+   }
+}
+@media screen and (max-width:600px) and (orientation:landscape){
+   .main-regis img {
+    width: 100%;
+    position: relative;
+    height: 200px;
+    }
+    .main-regis .register {
+    width: 100% !important;
+    height: auto;
+   }
+   .main-regis .register legend {
+    width: 90%;
+    margin-top:100px;
+   }
+   .main-regis .register .regis-inside {
+    width: 100%;
+    display: block;
+    height: auto;
+   }
+   .register .regis-inside .regis-left {
+    width: 97% !important;
+    height: auto;
+    background-color: green;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: -15px;
+   } 
+   .regis-inside .regis-left ul  .regis-text {
+    text-align: center;
+    }
+    .regis-inside .regis-right .form-group input {
+    width:94%;
+    /* margin-left:-15px; */
+   }
+   .regis-inside .regis-right .form-group {
+    margin-left:0px;
+   }
+   .register .regis-inside .regis-right {
+    width: 100%;
+    height: auto;
+    background-color: #efefef;
+    margin-top: 20px;
+    margin-left: -10px;
+    margin-bottom: 40px;
+   }
+   .form-check{
+       font-size:10px;
+       width:96%;
+   }
+   .regis-inside .regis-right .form-group button {
+    width: 50%;
+    margin-left: 60px;
+   }
+   .main-regis {
+    width: 100% !important;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+   }
+   .regis-banner{
+       width:100%;
+       height:150px;
+   }
+}
+@media screen and (min-width:800px) and (max-width:850px){
+   .main-regis img {
+    width: 100%;
+    position: relative;
+    height: 200px;
+    }
+    .main-regis .register {
+    width: 100% !important;
+    height: auto;
+   }
+   .main-regis .register legend {
+    width: 90%;
+    margin-top:100px;
+   }
+   .main-regis .register .regis-inside {
+    width: 100%;
+    display: block;
+    height: auto;
+   }
+   .register .regis-inside .regis-left {
+    width: 97% !important;
+    height: auto;
+    background-color: green;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: -15px;
+   } 
+   .regis-inside .regis-left ul  .regis-text {
+    text-align: center;
+    }
+    .regis-inside .regis-right .form-group input {
+    width:94%;
+    /* margin-left:-15px; */
+   }
+   .regis-inside .regis-right .form-group {
+    margin-left:0px;
+   }
+   .register .regis-inside .regis-right {
+    width: 100%;
+    height: auto;
+    background-color: #efefef;
+    margin-top: 20px;
+    margin-left: -10px;
+    margin-bottom: 40px;
+   }
+  .form-check{
+       font-size:10px;
+       width:96%;
+   }
+   .regis-inside .regis-right .form-group button {
+    width: 50%;
+    margin-left: 60px;
+   }
+   .main-regis {
+    width: 100% !important;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+   }
+   .regis-banner{
+       width:100%;
+       height:150px;
+   }
+}
+@media screen and (min-width:1361px) and (max-width:1925px){
+    
+}
